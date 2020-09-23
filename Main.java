@@ -3,7 +3,13 @@ class Main {
     int myAge= 15;
     int myBirthday= 108;
     int todaysDate= 921; 
-    System.out.println(myBirthday == todaysDate);
+
+    if(myBirthday == todaysDate){
+
+    }else{
+      
+    }
+    System.out.println();
      System.out.println("I am "+ myAge + " years old" );
   }
 }
