@@ -4,12 +4,14 @@ class Main {
     int myBirthday= 108;
     int todaysDate= 921; 
 
-    if(myBirthday == todaysDate){
-
-    }else{
-      
+    if(myBirthday == todaysDate)
+    {
+     System.out.print(1 + myAge); 
     }
-    System.out.println();
-     System.out.println("I am "+ myAge + " years old" );
+    else
+    {
+     System.out.print("I am " + myAge); 
+    }
+    System.out.println(" years old" );
   }
 }
