@@ -6,11 +6,12 @@ class Main {
 
     if(myBirthday == todaysDate)
     {
-     System.out.print(1 + myAge); 
+      System.out.print("I am "); 
+      System.out.print(1 + myAge); 
     }
     else
     {
-     System.out.print("I am " + myAge); 
+      System.out.print("I am " + myAge); 
     }
     System.out.println(" years old" );
   }
